@@ -33,6 +33,9 @@ def mult(a, b):
 def div(a, b):
     return a / b
 
+def modulo(a, b):
+    return a % b
+
 
 # -------------------------------------------------------- #
 
@@ -67,6 +70,8 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
+      elif (op == "%"):
+            print "Quotient: ", modulo(a, b)
         else:
             print "Invalid operation..."
 
